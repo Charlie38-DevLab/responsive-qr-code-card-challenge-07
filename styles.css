@@ -7,14 +7,11 @@
 
 /* ================= BASE ================= */
 body {
-    font-family: Arial, sans-serif;
-    font-size: 15px;
+    font-family: specimen, sans-serif;
+    font-size: 1rem;
     line-height: 1.6;
     text-align: center;
     background-color: #d5e1ef;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 
     /* 🔥 CENTRAGE PARFAIT */
     min-height: 100vh;
@@ -72,9 +69,13 @@ body {
     font-weight: 600;
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-    text-decoration: none;
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: underline;
+}
+
+.attribution a:hover {
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
