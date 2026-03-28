@@ -71,6 +71,8 @@ body {
     font-size: 0.7rem; 
     margin-top: 1rem;
     font-weight: 600;
+    margin-top: auto; /* 🔥 pousse vers le bas */
+    padding-bottom: 1rem;
 }
 
 .attribution a {
