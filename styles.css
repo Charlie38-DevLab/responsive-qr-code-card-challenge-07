@@ -1,0 +1,84 @@
+/* ================= RESET ================= */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ================= BASE ================= */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+    background-color: #d5e1ef;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* 🔥 CENTRAGE PARFAIT */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ================= CONTAINER ================= */
+.container {
+    width: 100%;
+    padding: 1rem;
+}
+
+/* ================= CARD ================= */
+.card {
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+
+    /* 🔥 RESPONSIVE */
+    width: 100%;
+    max-width: 320px;
+
+    margin: 0 auto; /* centre horizontal si jamais */
+    
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* ================= IMAGE ================= */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+/* ================= TITLE ================= */
+.card h1 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #1f314f;
+}
+
+/* ================= TEXT ================= */
+.card p {
+    font-size: 0.95rem;
+    color: #7b879d;
+}
+
+/* ================= ATTRIBUTION ================= */
+.attribution { 
+    font-size: 0.7rem; 
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .card h1 {
+    font-size: 1.4rem;
+  }
+}
