@@ -39,15 +39,16 @@ It is a solution to a Frontend Mentor challenge aimed at improving front-end dev
 
 ## 🌍 Live Demo
 
-* GitHub Pages: https://your-username.github.io/qr-code-component/
-* Vercel: https://qr-code-component.vercel.app/
+* **GitHub Pages:** https://charlie38-devlab.github.io/responsive-qr-code-card-challenge-07/
+* **Vercel:** https://responsive-qr-code-card-challenge-0.vercel.app/
 
 ## 📷 Aperçu
 <img width="1277" height="908" alt="image" src="https://github.com/user-attachments/assets/6d782cb5-2261-488e-a8a5-82ce9c322fbc" />
 
 ## 👨‍💻 Author
 
-**Charlie CréaTech -- A.Charlie**
+**Charlie CréaTech -- AGBAYAHOUN L.Charlie**
+
 LinkedIn: https://www.linkedin.com/in/charlie-cr%C3%A9atech-46b8753a9/
 
 ## 🙌 Acknowledgments
